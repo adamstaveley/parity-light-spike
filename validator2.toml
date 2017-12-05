@@ -1,0 +1,26 @@
+[parity]
+chain = "genesis.json"
+base_path = "data/validator2"
+[network]
+port = 30301
+reserved_peers = "reservedPeers"
+[rpc]
+port = 8565
+interface = "192.168.1.6"
+apis = ["all"]
+[websockets]
+port = 8566
+interface = "192.168.1.6"
+apis = ["all"]
+origins = ["*"]
+hosts = ["*"]
+[ipc]
+path = "data/validator2/validator.ipc"
+apis = ["all"]
+[ui]
+port = 8181
+[account]
+password = ["v2.pwd"]
+[mining]
+engine_signer = "0x3a594aeae5b15c1596cdc64b9ab5b8b9426899bc"
+reseal_on_txs = "none"

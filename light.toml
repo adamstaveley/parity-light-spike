@@ -1,0 +1,21 @@
+[parity]
+chain = "genesis.json"
+base_path = "data/light"
+light = true
+[network]
+port = 30304
+reserved_peers = "nodePeer"
+[rpc]
+port = 8585
+apis = ["all"]
+[websockets]
+port = 8586
+interface = "192.168.1.6"
+origins = ["*"]
+hosts = ["*"]
+apis = ["all"]
+[ipc]
+path = "data/light/light.ipc"
+apis = ["all"]
+[ui]
+port = 8183

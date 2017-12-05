@@ -1,0 +1,23 @@
+[parity]
+chain = "genesis.json"
+base_path = "data/node"
+[network]
+port = 30302
+reserved_peers = "reservedPeers"
+no_serve_light = false
+reserved_only = false
+snapshot_peers = 5
+[rpc]
+port = 8575
+apis = ["all"]
+[websockets]
+port = 8576
+apis = ["all"]
+hosts = ["*"]
+interface = "192.168.1.6"
+origins = ["*"]
+[ipc]
+path = "data/node/node.ipc"
+apis = ["all"]
+[ui]
+port = 8182

@@ -1,0 +1,1 @@
+[{"constant":false,"inputs":[],"name":"stop","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"start","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"anonymous":false,"inputs":[],"name":"Start","type":"event"},{"anonymous":false,"inputs":[],"name":"Stop","type":"event"}]
