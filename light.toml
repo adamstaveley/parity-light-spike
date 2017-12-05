@@ -4,7 +4,6 @@ base_path = "data/light"
 light = true
 [network]
 port = 30304
-reserved_peers = "nodePeer"
 [rpc]
 port = 8585
 apis = ["all"]
